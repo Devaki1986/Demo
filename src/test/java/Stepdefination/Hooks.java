@@ -36,7 +36,6 @@ public class Hooks {
 
            // Attach the screenshot to the Cucumber HTML report
            scenario.attach(screenshot, "image/png", "Failed_Screenshot");
-      
 		//Base.quit();	
 	}
 	
